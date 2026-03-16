@@ -106,3 +106,7 @@ rm $VLLM/model_executor/layers/fla/ops/pytorch_fallback.py
 - GPU：Tesla T10 / RTX 2080 等 Turing 架构（SM75）显卡
 - 模型：Qwen3.5 系列（使用 GDN 架构的模型）
 - 框架：vLLM（已测试路径基于 `python3.10`，其他版本需修改 `apply_gdn_patch.py` 中的路径）
+
+## 特别鸣谢
+
+纸鸢随风、infamousgxy
