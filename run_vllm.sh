@@ -7,7 +7,7 @@ python3 -m vllm.entrypoints.openai.api_server \
   --model ~/models/Qwen3.5-9B \
   --trust-remote-code \
   --dtype float16 \
-  --tensor-parallel-size 2 \
+  --pipeline-parallel-size 2 \
   --max-model-len 2048 \
   --gpu-memory-utilization 0.85 \
   --enforce-eager \
